@@ -6,7 +6,12 @@ JUPITER : DESCRIPTION ET PRINCIPE
 
 [Mots clés et technologies]
 
-java, jms/jmx, junit/jbehave, spring/spring-integration, protobuf, activemq
+          java, jms/jmx, junit/jbehave, 
+          spring/spring-integration,
+          protobuf,
+          activemq,
+          sql,
+          ruby
 
 [Principe]
 
@@ -14,3 +19,18 @@ Le projet contient 4 modules : factory [40%]
                                commercial [10%]
                                distributor [20%]
                                client [30%]
+L'usine (factory) fabrique un ensemble de produits de différents gammes : haute (1), moyenne (2), mauvaise (3).
+Chaque produit est conçu pour répondre au besoin du client qui l'a commandé, donc il a un traitement/fonction bien particulier/particulière. 
+Dans l'usine on a différents pôles : chacun de ces pôles à un rôle bine défini dans la chaîne de production d'un produit
+Les pôles : on a 5 pôles : 
+          design
+          supply
+          production
+          validation
+          packaging
+
+[Relations entre les entités]
+
+Interface Factory : FactoryImpl implémente cette interface : ==> les différents pôles héritent de FactoryImpl.
+
+
