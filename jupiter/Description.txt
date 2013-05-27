@@ -39,6 +39,7 @@ On a 5 pôles :
           production
           validation
           packaging
+* Chaque classes appelle la classe qui la précède chronologiquement dans le life-cycle d'un produit
 
 [Relations entre les entités]
 
