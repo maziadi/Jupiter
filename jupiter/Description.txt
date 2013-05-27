@@ -16,11 +16,20 @@ JUPITER : DESCRIPTION ET PRINCIPE
 
 [Principe]
 
-Le projet contient 4 modules : factory [40%]
-                               commercial [10%]
-                               distributor [20%]
-                               client [30%]
-* L'usine (factory) fabrique un ensemble de produits de différents gammes : haute (1), moyenne (2), mauvaise (3).
+* Simuler le cycle de vie d'un produit : fabrication/commercialisation/distribution/réception par le client.
+* Simuler les comportements des différents entitées participantes au cycle de vie d'un produit donné.
+
+[Informations]
+
+* Le projet contient 4 modules : 
+          factory     [40%]
+          commercial  [10%]
+          distributor [20%]
+          client      [30%]
+* L'usine (factory) fabrique un ensemble de produits de différents gammes : 
+          highrange : haute (1)
+          midrange moyenne  (2)
+          badrange mauvaise (3)
 * Chaque produit est conçu pour répondre au besoin du client qui l'a commandé, donc il a un traitement/fonction bien 
 particulier/particulière. 
 * Dans l'usine on a différents pôles : chacun de ces pôles à un rôle bien défini dans la chaîne de production d'un produit
@@ -33,6 +42,14 @@ On a 5 pôles :
 
 [Relations entre les entités]
 
-Interface Factory : FactoryImpl implémente cette interface : ==> les différents pôles héritent de FactoryImpl.
-
-
+* Interface Factory : FactoryImpl implémente cette interface : ==> les différents pôles héritent de FactoryImpl.
+* Interface Product : ProductImpl implémente cette interface : ==> Les différentes gammes de produits héritent de ProductImpl
+* Méthodes de l'interface Factory : 
+          getFactoryName : retourne le nom de l'usine
+          setFactoryName : setter le nom de l'usine
+          factoryProductRange : retourne la gamme du produit
+          designProduct
+          supplyProduct
+          manufactureProduct
+          validateProduct
+          packageProduct
