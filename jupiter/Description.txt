@@ -1,0 +1,9 @@
+Description de l'idée du projet : 
+
+[Mots clés et technologies]
+
+java, jms/jmx, junit/jbehave, spring/spring-integration, protobuf, activemq
+
+[Principe]
+
+
