@@ -6,4 +6,7 @@ java, jms/jmx, junit/jbehave, spring/spring-integration, protobuf, activemq
 
 [Principe]
 
-
+Le projet contient 4 modules : factory [%]
+                               commercial [%]
+                               distributor [%]
+                               client [%]

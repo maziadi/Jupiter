@@ -26,5 +26,9 @@
     <module>ganymede</module>
     <module>ariel</module>
     <module>ioo</module>
+    <module>factory</module>
+    <module>client</module>
+    <module>commercial</module>
+    <module>distributor</module>
   </modules>
 </project>
