@@ -1,5 +1,5 @@
-======
-ZEPHYR
-======
+=============
+CANIS MAJORIS
+=============
 
 Java Project
