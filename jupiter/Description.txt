@@ -1,4 +1,8 @@
-Description de l'idée du projet : 
+
+----------------------------------
+JUPITER : DESCRIPTION ET PRINCIPE
+----------------------------------
+
 
 [Mots clés et technologies]
 
@@ -6,7 +10,7 @@ java, jms/jmx, junit/jbehave, spring/spring-integration, protobuf, activemq
 
 [Principe]
 
-Le projet contient 4 modules : factory [%]
-                               commercial [%]
-                               distributor [%]
-                               client [%]
+Le projet contient 4 modules : factory [40%]
+                               commercial [10%]
+                               distributor [20%]
+                               client [30%]
