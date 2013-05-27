@@ -32,7 +32,7 @@ JUPITER : DESCRIPTION ET PRINCIPE
           badrange  : mauvaise gamme (3)
 * Chaque produit est conçu pour répondre au besoin du client qui l'a commandé, donc il a un traitement/fonction bien 
 particulier/particulière. 
-* Dans l'usine on a différents pôles : chacun de ces pôles à un rôle bien défini dans la chaîne de production d'un produit
+* Dans l'usine on a différents pôles : chacun de ces pôles a un rôle bien défini dans la chaîne de production d'un produit
 On a 5 pôles : 
           design
           supply
@@ -43,7 +43,8 @@ On a 5 pôles :
 [Relations entre les entités]
 
 * Interface Factory : FactoryImpl implémente cette interface : ==> les différents pôles héritent de FactoryImpl.
-* Interface Product : ProductImpl implémente cette interface : ==> Les différentes gammes de produits héritent de ProductImpl
+* Interface Product : ProductImpl implémente cette interface : ==> Les différentes gammes de produits héritent de 
+  ProductImpl
 * Méthodes de l'interface Factory : 
           getFactoryName : retourne le nom de l'usine
           setFactoryName : setter le nom de l'usine
