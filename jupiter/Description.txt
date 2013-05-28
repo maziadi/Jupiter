@@ -61,9 +61,7 @@ On a 5 pôles :
           getProductName
           setProductName
           getProductRange
-          setProductRange
           getProductInformations
-          setProductInformations
 
 
 

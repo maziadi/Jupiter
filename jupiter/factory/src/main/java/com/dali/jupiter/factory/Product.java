@@ -10,9 +10,5 @@ public interface Product {
 
   public String getProductRange();
 
-  public void setProductRange(String productRange);
-
   public String[] getProductInformations();
-
-  public void setProductInformations();
 }
