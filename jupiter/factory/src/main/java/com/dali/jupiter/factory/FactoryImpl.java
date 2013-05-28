@@ -2,9 +2,7 @@ package com.dali.jupiter.factory;
 
 public abstract class FactoryImpl implements  Factory {
 
-  private String factoryName;
-
-  private String productRange;
+  private String factoryName, productRange;
 
   public String getFactoryName() {
     return factoryName;

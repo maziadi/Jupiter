@@ -56,3 +56,14 @@ On a 5 pôles :
           packageProduct
 
 * Chaque classes appelle la classe qui la précède chronologiquement dans le life-cycle d'un produit
+
+* Méthodes de l'interface Product : 
+          getProductName
+          setProductName
+          getProductRange
+          setProductRange
+          getProductInformations
+          setProductInformations
+
+
+
