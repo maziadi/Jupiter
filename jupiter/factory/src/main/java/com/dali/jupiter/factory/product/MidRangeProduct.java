@@ -11,7 +11,7 @@ public class MidRangeProduct extends ProductImpl {
   public String[] getProductInformations() {
     return  new String[] {"reference", "material", "color", getProductRange(), "price"};
   }
-  public void mainMidRangeProduct  () {
+  public void main() {
     MidRangeProduct M = new MidRangeProduct();
     System.out.println(M.getProductRange());
     System.out.println(Arrays.toString(M.getProductInformations()));
