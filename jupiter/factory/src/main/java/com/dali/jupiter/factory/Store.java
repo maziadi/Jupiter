@@ -20,6 +20,7 @@ public class Store {
     System.out.println( "--- Classe de Test ---" );
     Store S = new Store();
     System.out.println(S.getMaterialAvailability("iron"));
-    System.out.println(Arrays.toString(S.getAllStatistics()));
+    System.out.println(Arrays.toString(S.getAllStatistics()[0]));
+    System.out.println(S.getAllStatistics()[0][0]);
   }
 }
