@@ -2,10 +2,6 @@ package com.dali.jupiter.factory;
 
 public class HighRangeProduct extends ProductImpl {
 
-  public String getProductName() {
-    return productName;
-  }
-
   public String getProductRange() {
     return "high";
   }

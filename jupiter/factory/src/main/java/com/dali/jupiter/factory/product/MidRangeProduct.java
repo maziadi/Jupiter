@@ -2,10 +2,6 @@ package com.dali.jupiter.factory;
 
 public class MidRangeProduct extends ProductImpl {
 
-  public String getProductName() {
-    return productName;
-  }
-
   public String getProductRange() {
     return "middle";
   }
