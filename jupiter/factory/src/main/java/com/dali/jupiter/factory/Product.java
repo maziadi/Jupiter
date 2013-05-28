@@ -1,7 +1,5 @@
 package com.dali.jupiter.factory;
 
-import org.apache.commons.lang.ArrayUtils;
-
 public interface Product {
 
   public String getProductName();

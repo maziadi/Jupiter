@@ -7,6 +7,6 @@ public class BadRangeProduct extends ProductImpl {
   }
 
   public String[] getProductInformations() {
-    return  new String [] {"reference", "material", "color", getProductRange(), "price"};
+    return  new String[] {"reference", "material", "color", getProductRange(), "price"};
   }
 }
