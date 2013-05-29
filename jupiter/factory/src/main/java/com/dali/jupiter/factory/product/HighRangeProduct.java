@@ -9,7 +9,7 @@ public class HighRangeProduct extends ProductImpl {
   }
 
   public Caracteristics getProductInformations() {
-    H.setCaracteristics("corraps", "REF-XX-333", "blue", 30);
+    H.setCaracteristics("corraps", "REF-XX-111", "blue", 90);
     return H;
   }
 }

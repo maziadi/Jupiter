@@ -4,8 +4,6 @@ public abstract class ProductImpl implements Product {
 
   protected String productName, productRange;
 
-  protected String[] productInformations;
-   
   private Caracteristics C;
 
   public String getProductName() {

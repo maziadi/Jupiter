@@ -4,14 +4,14 @@ import java.util.Arrays;
 
 public class MidRangeProduct extends ProductImpl {
 
-  private Caracteristics M;
+  protected Caracteristics M;
 
   public String getProductRange() {
     return "middle";
   }
 
   public Caracteristics getProductInformations() {
-    M.setCaracteristics("corraps", "REF-XX-333", "blue", 30);
+    M.setCaracteristics("corraps", "REF-XX-222", "blue", 50);
     return M;
   }
 
