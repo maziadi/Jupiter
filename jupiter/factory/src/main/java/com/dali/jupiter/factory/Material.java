@@ -63,5 +63,7 @@ public enum Material {
     public static void main(String[] args) {
         System.out.println(Material.PASSED);
         System.out.println(Material.getMaterial(-1));
+        System.out.println(Material.getMaterial(-2));
+        System.out.println(Material.DID_NOT_RUN);
     }
 }
