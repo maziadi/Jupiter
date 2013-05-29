@@ -12,11 +12,9 @@ public class Store {
     for (int i=0; i<availableMaterials.length;i++) {
       if (Material.equals(availableMaterials[i][0])) {
         return Integer.parseInt(availableMaterials[i][1]);
-      } else {
-        return -1;
       }
     }
-    return 0;
+    return -1;
   }
 
   public String[][] getAllStatistics () {
@@ -30,6 +28,6 @@ public class Store {
     for (int i=0; i<S.availableMaterials.length; i++) {
       System.out.println(S.getAllStatistics()[i][0]);
     }
-    System.out.println("Availability = " + S.getMaterialAvailability("iron"));
+    System.out.println("Availability = " + S.getMaterialAvailability("ioron"));
   }
 }
