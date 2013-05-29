@@ -1,5 +1,7 @@
 package com.dali.jupiter.factory;
 
+import java.util.Arrays;
+
 public class App {
     public static void main(String[] args) {
         System.out.println( "--- Classe de Test ---" );
@@ -8,6 +10,6 @@ public class App {
           Mr.setProductName("MRP");
           //M.main();
         }
-        Mr.getProductInformations();
+        System.out.println(Arrays.toString(Mr.getProductInformations()));
     }
 }
