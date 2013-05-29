@@ -8,5 +8,5 @@ public interface Product {
 
   public String getProductRange();
 
-  public String[] getProductInformations();
+  public Caracteristics getProductInformations();
 }
