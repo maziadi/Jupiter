@@ -28,6 +28,6 @@ public class Store {
     for (int i=0; i<S.availableMaterials.length; i++) {
       System.out.println(S.getAllStatistics()[i][0]);
     }
-    System.out.println("Availability = " + S.getMaterialAvailability("ioron"));
+    System.out.println("Availability = " + S.getMaterialAvailability("iron"));
   }
 }
