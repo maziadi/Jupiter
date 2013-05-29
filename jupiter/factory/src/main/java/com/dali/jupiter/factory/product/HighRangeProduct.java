@@ -2,14 +2,14 @@ package com.dali.jupiter.factory;
 
 public class HighRangeProduct extends ProductImpl {
 
-  private Caracteristics H;
+  Caracteristics H = new Caracteristics();
 
   public String getProductRange() {
     return "high";
   }
 
-  public Caracteristics getProductInformations() {
-    H.setCaracteristics("corraps", "REF-XX-111", "blue", 90);
-    return H;
+  public String[] getProductInformations() {
+    H.setCaracteristics("corraps", "REF-XX-111", "blue", 30);
+    return new String[] {H.getName(), H.getReference(), H.getColor(), Integer.toString(H.getPrice())};
   }
 }

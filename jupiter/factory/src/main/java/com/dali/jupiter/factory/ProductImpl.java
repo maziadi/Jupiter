@@ -4,7 +4,7 @@ public abstract class ProductImpl implements Product {
 
   protected String productName, productRange;
 
-  private Caracteristics C;
+  protected String[] C;
 
   public String getProductName() {
     return productName;
@@ -18,7 +18,7 @@ public abstract class ProductImpl implements Product {
     return productRange;
   }
 
-  public Caracteristics getProductInformations() {
+  public String[] getProductInformations() {
     return C;
   }
 }

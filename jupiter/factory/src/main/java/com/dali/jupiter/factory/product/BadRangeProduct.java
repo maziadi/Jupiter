@@ -2,14 +2,14 @@ package com.dali.jupiter.factory;
 
 public class BadRangeProduct extends ProductImpl {
 
-  private Caracteristics B;
+  Caracteristics B = new Caracteristics();
 
   public String getProductRange() {
     return "bad";
   }
 
-  public Caracteristics getProductInformations() {
+  public String[] getProductInformations() {
     B.setCaracteristics("corraps", "REF-XX-333", "blue", 30);
-    return B;
+    return new String[] {B.getName(), B.getReference(), B.getColor(), Integer.toString(B.getPrice())};
   }
 }

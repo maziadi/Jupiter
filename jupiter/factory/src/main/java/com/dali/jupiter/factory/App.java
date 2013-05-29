@@ -8,6 +8,6 @@ public class App {
           Mr.setProductName("MRP");
           //M.main();
         }
-        Mr.M.getName();
+        Mr.getProductInformations();
     }
 }

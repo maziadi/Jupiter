@@ -1,7 +1,6 @@
 package com.dali.jupiter.factory;
 
-public enum Caracteristics {
-  NAME, REFERENCE, COLOR, PRICE;
+public class Caracteristics {
 
   protected String name ;
   protected String reference;
