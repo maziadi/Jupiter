@@ -2,17 +2,17 @@ package com.dali.jupiter.factory;
 
 public class BadRangeProduct extends ProductImpl {
 
-  Caracteristics B = new Caracteristics();
+  Caracteristics Carac = new Caracteristics();
 
   public String[] getProductInformations() {
-    B.setCaracteristics("QUINZER", "REF-XX-333", "blue", 3, 30);
-    System.out.println("Printing Product informations :");
-    System.out.println("  Name : " + B.getName());
-    System.out.println("  Reference : " + B.getReference());
-    System.out.println("  Color : " + B.getColor());
-    System.out.println("  Range : " + B.getRange());
-    System.out.println("  Price : " + B.getPrice());
-    System.out.println("------------------------------\n");
-    return new String[] {B.getName(), B.getReference(), B.getColor(), Integer.toString(B.getPrice())};
+    Carac.setCaracteristics("QUINZER", "REF-XX-333", "blue", 3, 30);
+    System.out.println("Printing Product informations :"
+        + "\n\tName : " + Carac.getName()
+        + "\n\tReference : " + Carac.getReference()
+        + "\n\tColor : " + Carac.getColor()
+        + "\n\tRange : " + Carac.getRange()
+        + "\n\tPrice : " + Carac.getPrice()
+        + "\n------------------------------\n");
+    return new String[] {Carac.getName(), Carac.getReference(), Carac.getColor(), Integer.toString(Carac.getPrice())};
   }
 }

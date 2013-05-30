@@ -2,17 +2,17 @@ package com.dali.jupiter.factory;
 
 public class HighRangeProduct extends ProductImpl {
 
-  Caracteristics H = new Caracteristics();
+  Caracteristics Carac = new Caracteristics();
 
   public String[] getProductInformations() {
-    H.setCaracteristics("QUINZER", "REF-XX-111", "blue", 1,  100);
-    System.out.println("Printing Product informations :");
-    System.out.println("  Name : " + H.getName());
-    System.out.println("  Reference : " + H.getReference());
-    System.out.println("  Color : " + H.getColor());
-    System.out.println("  Range : " + H.getRange());
-    System.out.println("  Price : " + H.getPrice());
-    System.out.println("------------------------------\n");
-    return new String[] {H.getName(), H.getReference(), H.getColor(), Integer.toString(H.getPrice())};
+    Carac.setCaracteristics("QUINZER", "REF-XX-111", "blue", 1, 90);
+    System.out.println("Printing Product informations :"
+        + "\n\tName : " + Carac.getName()
+        + "\n\tReference : " + Carac.getReference()
+        + "\n\tColor : " + Carac.getColor()
+        + "\n\tRange : " + Carac.getRange()
+        + "\n\tPrice : " + Carac.getPrice()
+        + "\n------------------------------\n");
+    return new String[] {Carac.getName(), Carac.getReference(), Carac.getColor(), Integer.toString(Carac.getPrice())};
   }
 }
