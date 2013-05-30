@@ -2,7 +2,7 @@ package com.dali.jupiter.factory;
 
 public abstract class ProductImpl implements Product {
 
-  protected String productName, productRange;
+  protected String productName;
 
   protected String[] C;
 
@@ -12,10 +12,6 @@ public abstract class ProductImpl implements Product {
 
   public void setProductName (String productName) {
     this.productName = productName;
-  }
-
-  public String getProductRange() {
-    return productRange;
   }
 
   public String[] getProductInformations() {
