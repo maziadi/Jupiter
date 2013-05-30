@@ -4,12 +4,14 @@ import java.util.Arrays;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println( "--- Classe de Test ---" );
-        MidRangeProduct Mr = new MidRangeProduct();
-        for (int i=0; i<10; i++) {
-          Mr.setProductName("MRP");
-          //M.main();
-        }
-        System.out.println(Arrays.toString(Mr.getProductInformations()));
+        System.out.println( "--- Classe de Test ---\n" );
+        HighRangeProduct Hrp = new HighRangeProduct();
+        MidRangeProduct Mrp = new MidRangeProduct();
+        BadRangeProduct Brp = new BadRangeProduct();
+
+        Hrp.getProductInformations();
+        Mrp.getProductInformations();
+        Brp.getProductInformations();
+        //System.out.println(Arrays.toString(Mr.getProductInformations()));
     }
 }

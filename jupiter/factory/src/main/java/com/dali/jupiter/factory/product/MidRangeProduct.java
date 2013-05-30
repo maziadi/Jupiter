@@ -11,8 +11,14 @@ public class MidRangeProduct extends ProductImpl {
   }
 
   public String[] getProductInformations() {
-    M.setCaracteristics("corraps", "REF-XX-222", "blue", 30);
-    System.out.println("Name  is :" + M.getName());
+    M.setCaracteristics("QUINZER", "REF-XX-222", "blue", 30);
+    System.out.println("Printing Product informations :");
+    System.out.println("  Name : " + M.getName());
+    System.out.println("  Reference : " + M.getReference());
+    System.out.println("  Color : " + M.getColor());
+    System.out.println("  Range : 2");
+    System.out.println("  Price : " + M.getPrice());
+    System.out.println("------------------------------\n");
     return new String[] {M.getName(), M.getReference(), M.getColor(), Integer.toString(M.getPrice())};
   }
 
