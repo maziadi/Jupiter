@@ -7,7 +7,7 @@ public class MidRangeProduct extends ProductImpl {
   Caracteristics M = new Caracteristics();
 
   public String[] getProductInformations() {
-    M.setCaracteristics("QUINZER", "REF-XX-222", "blue", 2, 30);
+    M.setCaracteristics("QUINZER", "REF-XX-222", "blue", 2, 60);
     System.out.println("Printing Product informations :");
     System.out.println("  Name : " + M.getName());
     System.out.println("  Reference : " + M.getReference());
