@@ -63,5 +63,11 @@ On a 5 pôles :
           getProductRange
           getProductInformations
 
+[0bjectif]
+
+* Application:  - Informations sur le produit
+                - Fabriquer (design/production/validation/emballage)
+                - Output vers le module "commercial"
+
 
 

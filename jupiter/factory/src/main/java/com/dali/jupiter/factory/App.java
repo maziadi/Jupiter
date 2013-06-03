@@ -7,7 +7,7 @@ public class App {
         System.out.println( "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
             + "\n*** TESTING FACTORY APPLICATION ***"
             + "\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-            +"\n");
+            + "\n");
 
         HighRangeProduct Hrp = new HighRangeProduct();
         MidRangeProduct Mrp = new MidRangeProduct();
