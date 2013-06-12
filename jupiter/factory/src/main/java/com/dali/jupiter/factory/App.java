@@ -16,6 +16,5 @@ public class App {
         Hrp.getProductInformations();
         Mrp.getProductInformations();
         Brp.getProductInformations();
-        //System.out.println(Arrays.toString(Mr.getProductInformations()));
     }
 }
