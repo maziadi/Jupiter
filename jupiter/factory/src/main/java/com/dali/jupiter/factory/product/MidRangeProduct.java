@@ -28,6 +28,5 @@ public class MidRangeProduct extends ProductImpl {
 
   public void main() {
     MidRangeProduct M = new MidRangeProduct();
-    //System.out.println(Arrays.toString(M.getProductInformations()));
   }
 }
