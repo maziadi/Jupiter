@@ -11,14 +11,15 @@ public class App extends JFrame{
     pan.setBackground(Color.BLACK);        
     JButton send = new JButton ("Envoyer");
     JTextField text = new JTextField ("Bonjour !");
-    text.setSize (250, 50);
+    text.setSize (250, 250);
     Box bottom = Box.createHorizontalBox();
     bottom.add (text);
     bottom.add (send);
     JTextArea textarea = new JTextArea ("Dicussion ...");
-    textarea.setSize (250, 150);
-    textarea.setEditable (false);
+    textarea.setSize (350, 350);
+    textarea.setEditable (true);
     Box main = Box.createVerticalBox();
+    main.setSize (400, 600);
     main.add (textarea);
     main.add (bottom);
     pan.add (main);
