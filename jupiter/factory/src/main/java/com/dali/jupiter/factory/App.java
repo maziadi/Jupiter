@@ -15,13 +15,13 @@ public class App {
     MidRangeProduct Mrp = new MidRangeProduct();
     BadRangeProduct Brp = new BadRangeProduct();
 
-    Hrp.getProductInformations();
+    System.out.println(Hrp.getProductInformations());
     Mrp.getProductInformations();
     Brp.getProductInformations();
 
     JFrame fenetre = new JFrame();
     fenetre.setTitle("Product informations");
-    fenetre.setSize(800, 600);
+    fenetre.setSize(1000, 900);
     fenetre.setLocationRelativeTo(null);
     fenetre.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     fenetre.setVisible(true);

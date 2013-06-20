@@ -12,7 +12,7 @@ public abstract class ProductImpl implements Product {
     this.productName = productName;
   }
 
-  public String[] getProductInformations() {
-    return new String[] {};
+  public String getProductInformations() {
+    return new String ("infos");
   }
 }
