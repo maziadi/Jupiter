@@ -6,5 +6,5 @@ public interface Product {
 
   public void setProductName (String factoryName);
 
-  public String[] getProductInformations();
+  public String getProductInformations();
 }

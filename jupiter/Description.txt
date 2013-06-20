@@ -39,35 +39,3 @@ On a 5 pôles :
           production
           validation
           packaging
-
-[Relations entre les entités]
-
-* Interface Factory : FactoryImpl implémente cette interface : ==> les différents pôles héritent de FactoryImpl.
-* Interface Product : ProductImpl implémente cette interface : ==> Les différentes gammes de produits héritent de 
-  ProductImpl
-* Méthodes de l'interface Factory : 
-          getFactoryName : retourne le nom de l'usine
-          setFactoryName : setter le nom de l'usine
-          factoryProductRange : retourne la gamme du produit
-          designProduct
-          supplyProduct
-          manufactureProduct
-          validateProduct
-          packageProduct
-
-* Chaque classes appelle la classe qui la précède chronologiquement dans le life-cycle d'un produit
-
-* Méthodes de l'interface Product : 
-          getProductName
-          setProductName
-          getProductRange
-          getProductInformations
-
-[0bjectif]
-
-* Application:  - Informations sur le produit
-                - Fabriquer (design/production/validation/emballage)
-                - Output vers le module "commercial"
-
-
-
