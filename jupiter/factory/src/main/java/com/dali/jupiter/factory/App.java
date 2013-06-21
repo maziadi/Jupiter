@@ -8,21 +8,12 @@ public class App extends JFrame{
   public App(){             
 
     JPanel pan = new JPanel();
-    pan.setBackground(Color.BLACK);        
+    pan.setBackground(Color.WHITE);        
     JButton send = new JButton ("Envoyer");
     JTextField text = new JTextField ("Bonjour !");
-    text.setSize (250, 250);
     Box bottom = Box.createHorizontalBox();
     bottom.add (text);
     bottom.add (send);
-    JTextArea textarea = new JTextArea ("Dicussion ...");
-    textarea.setSize (350, 350);
-    textarea.setEditable (true);
-    Box main = Box.createVerticalBox();
-    main.setSize (400, 600);
-    main.add (textarea);
-    main.add (bottom);
-    pan.add (main);
     this.setContentPane(pan);               
     this.setVisible(true);
   }       
@@ -38,8 +29,8 @@ public class App extends JFrame{
     BadRangeProduct Brp = new BadRangeProduct();
 
     System.out.println(Hrp.getProductInformations());
-    Mrp.getProductInformations();
-    Brp.getProductInformations();
+    System.out.println(Mrp.getProductInformations());
+    System.out.println(Brp.getProductInformations());
 
     App fenetre = new App();
     fenetre.setTitle("Product informations");
@@ -47,5 +38,15 @@ public class App extends JFrame{
     fenetre.setLocationRelativeTo(null);
     fenetre.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     fenetre.setVisible(true);
+
+    JPanel panel = new JPanel();
+
+    JTextArea textarea1 = new JTextArea (Hrp.getProductInformations());
+    JTextArea textarea2 = new JTextArea (Mrp.getProductInformations());
+    JTextArea textarea3 = new JTextArea (Brp.getProductInformations());
+    panel.add(textarea1);
+    panel.add(textarea2);
+    panel.add(textarea3);
+    fenetre.setContentPane(panel);
   }
 }
